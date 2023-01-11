@@ -1,0 +1,24 @@
+version: '3.1'
+services:
+  ui:
+    container_name: customermanagement-ui
+    image: customermanagement-frontend
+    build: ./customerManagment-frontend/.
+    ports:
+      - 3000:80
+  app:
+    container_name: customermanagement-api
+    image: customermanagement-backend
+    build: ./customerManagment-Backend/.
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresqldb
+  postgresqldb:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres

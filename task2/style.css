@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+header {
+  height: 97vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: none;
+}
+
+label {
+  color: #272727;
+  font-size: 90px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#selectedFileName {
+  color: #9b9a9a;
+}

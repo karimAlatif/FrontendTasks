@@ -1,0 +1,6 @@
+com/vigor/business/service/CustomerService.class
+com/vigor/CaseApplication.class
+com/vigor/data/repository/CustomerRepository.class
+com/vigor/data/entity/Customer.class
+com/vigor/web/controllers/CustomerDetailsWebServiceController.class
+com/vigor/web/filtters/AllowFiltter.class

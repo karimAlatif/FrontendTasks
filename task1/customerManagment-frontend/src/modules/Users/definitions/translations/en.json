@@ -1,0 +1,24 @@
+{
+  "general": {
+    "404": {
+      "title": "Page Not Found",
+      "homeButton": "Back To Home Page"
+    }
+  },
+  "users": {
+    "list": {
+      "title": "title",
+      "keys": "Keys",
+      "no_users": "No users to show.",
+      "no_users_matched": "No matched results."
+    },
+    "form": {
+      "title": "Create New User",
+      "editTitle": "Edit User",
+      "subTitle": "User Details",
+      "name": "Name",
+      "phone": "Phone",
+      "infoText": "Please note that the user won't be display in the list "
+    }
+  }
+}
